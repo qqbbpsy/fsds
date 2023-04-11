@@ -1,3 +1,7 @@
+document.addEventListener("contextmenu", function(e){
+  e.preventDefault();
+}, false);
+
 document.addEventListener('contextmenu', function(event) {
   if (event.target.nodeName.toLowerCase() === 'img') {
     event.preventDefault();
